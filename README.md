@@ -18,14 +18,14 @@
   - [Линейная алгебра / Linear algebra  - *Project_09*](09_linear_algebra)
   - [Численные методы (градиентный бустинг) / Numerical analysis (gradient boosting)  - *Project_10*](10_cars_cost_determining)
   - [Временные ряды / Time series  - *Project_11*](11_time_series_taxi_orders_forecasting)
-  - [Машинное обучение для текстов / Machine learning for texts  - *Project_12*](12_nlp_toxic_texts), [Part_2](12_nlp_toxic_texts_bert), [Part_3](12_nlp_toxic_texts_catboost)
-  - [**Выпускной проект / Final project**  - *Project_final*](13_graduate_project_telecom_customer_churn), [Part 2](13_graduate_project_telecom_customer_churn_part2)
+  - [Машинное обучение для текстов / Machine learning for texts  - *Project_12*](12_nlp_toxic_texts)
+  - [**Выпускной проект / Final project**  - *Project_final*](13_graduate_project_telecom_customer_churn)
 
 ## Проекты
 
 |№| Название | Общая информация | Стек технологий |
 |:---|:-------------------|:----------------------------------------------------------|:-----------:|
-|13  |[(Дипломный проект) Прогнозирование оттока клиентов оператора связи](13_graduate_project_telecom_customer_churn_part2)|Необходимо научиться с высокой точностью прогнозировать отток клиентов телеком-оператора. Это позволит своевременно предложить промокоды и бонусы и сохранить клиента.|`catboost` `sklearn` `seaborn` `matplotlib` `plotly` `pandas` `numpy` `math`|
+|13  |[(Дипломный проект) Прогнозирование оттока клиентов оператора связи](13_graduate_project_telecom_customer_churn)|Необходимо научиться с высокой точностью прогнозировать отток клиентов телеком-оператора. Это позволит своевременно предложить промокоды и бонусы и сохранить клиента.|`catboost` `sklearn` `seaborn` `matplotlib` `plotly` `pandas` `numpy` `math`|
 |12  |[(Обработка естественного языка) Определение токсичности комментариев](12_nlp_toxic_texts)|Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию. Для этого необходимо обучить модель классифицировать комментарии на позитивные и негативные|`BERT` `spacy` `SVC` `pymystem3` `re` `sklearn` `pandas` `numpy` `matplotlib` `plotly` `math`|
 |11  |[(Временные ряды) Прогноз количества заказов такси на следующий час](11_time_series_taxi_orders_forecasting)|Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час.|`TimeSeriesSplit` `catboost` `lightgbm` `statsmodels` `sklearn` `pandas` `numpy` `matplotlib` `plotly` `math` `time`|
 |10  |[Определение стоимости автомобилей](10_cars_cost_determining)|Необходимо построить модель для определения стоимости автомобиля, с учетом ограничений обозначенных заказчиком|`catboost` `lightgbm` `sklearn` `pandas` `numpy` `matplotlib` `plotly` `math` `time`|
